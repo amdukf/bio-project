@@ -5,7 +5,6 @@ body {
     background-color: #4C4C4C;
     width: 90%;
     height: 130px;
-    border-style: groove;
 	border-radius: 12px ;
     border-color: #4C4C4C;
     margin: 30px;
@@ -15,9 +14,50 @@ body {
     box-shadow: 15px 8px 7px 5px #3f3f3f;
 }
 .text1{
-    font-size: x-large;
+    font-size: 60px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    font-size:50px;
     color: azure;
+    text-shadow: 4px 4px 4px red;
+
+}
+.body {
+    background-color: #4C4C4C;
+    width: 90%;
+    height: 600px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    box-shadow: 15px 8px 7px 5px #3f3f3f;
+
+}
+.about{
+    font-size: 30px;
+    background-color: #009A75;
+    color: #fff;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    margin: 30px;
+}
+.about:hover {
+	background-color:#fff;
+	color: rgb(3, 3, 111);
+}
+.text2{
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    font-size:25px;
+    line-height: 35px;
+
+}
+#linkuni {
+    text-decoration: none;
+    color: dodgerblue;
+}
+.text2::selection{
+	color: aliceblue;
+	background-color:rgb(213, 44, 44);
 }
