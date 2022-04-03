@@ -11,7 +11,12 @@ body {
     display: table;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 15px 8px 7px 5px #3f3f3f;
+    box-shadow: 15px 8px 7px 5px #6d6a6a;
+    transition: all ease 0.3s;
+}
+.main:hover {
+	background-color:#848484;
+	color: rgb(3, 3, 111);
 }
 .text1{
     font-size: 60px;
@@ -22,25 +27,26 @@ body {
 
 }
 .body {
-    background-color: #4C4C4C;
+    background-color: #848484;
     width: 90%;
-    height: 600px;
+    height: 250px;
     display: table;
     margin-right: auto;
     margin-left: auto;
     border-radius: 12px;
-    box-shadow: 15px 8px 7px 5px #3f3f3f;
+    box-shadow: 15px 8px 7px 5px #6d6a6a;
 
 }
 .about{
     font-size: 30px;
-    background-color: #009A75;
+    background-color: #10B83F;
     color: #fff;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid black;
-    border-radius: 3px;
+    border-radius: 30px;
     transition: all ease 0.3s;
     margin: 30px;
+    text-align: center;
 }
 .about:hover {
 	background-color:#fff;
@@ -55,9 +61,60 @@ body {
 }
 #linkuni {
     text-decoration: none;
-    color: dodgerblue;
+    color: #246ED7;
 }
 .text2::selection{
 	color: aliceblue;
 	background-color:rgb(213, 44, 44);
+}
+.skills { 
+    background-color: #848484;
+    width: 90%;
+    height: 250px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    box-shadow: 15px 8px 7px 5px #6d6a6a;
+}
+.skillhead{
+    font-size: 30px;
+    background-color: #10B83F;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+    margin: 30px;
+    text-align: center;
+}
+.skillhead:hover {
+	background-color:#fff;
+	color: rgb(3, 3, 111);
+}
+.skills {
+    font-family: 'Roboto', sans-serif;
+}
+.progress {
+    font-size: xx-large;
+    margin: 30px;
+}
+meter::-webkit-meter-optimum-value {
+    background: #007D5F; /* Green */
+}
+meter {
+    width: 1000px;
+    height: 25px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.contact { 
+    background-color: #848484;
+    width: 90%;
+    height: 250px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    box-shadow: 15px 8px 7px 5px #6d6a6a;
 }
