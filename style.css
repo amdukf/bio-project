@@ -37,7 +37,7 @@ body {
     box-shadow: 15px 8px 7px 5px #6d6a6a;
 
 }
-.about{
+.infobox{
     font-size: 30px;
     background-color: #10B83F;
     color: #fff;
@@ -48,7 +48,7 @@ body {
     margin: 30px;
     text-align: center;
 }
-.about:hover {
+.infobox:hover {
 	background-color:#fff;
 	color: rgb(3, 3, 111);
 }
@@ -76,23 +76,6 @@ body {
     margin-left: auto;
     border-radius: 12px;
     box-shadow: 15px 8px 7px 5px #6d6a6a;
-}
-.skillhead{
-    font-size: 30px;
-    background-color: #10B83F;
-    color: #fff;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 30px;
-    transition: all ease 0.3s;
-    margin: 30px;
-    text-align: center;
-}
-.skillhead:hover {
-	background-color:#fff;
-	color: rgb(3, 3, 111);
-}
-.skills {
     font-family: 'Roboto', sans-serif;
 }
 .progress {
@@ -131,6 +114,14 @@ meter {
 }
 .icon {
     color: orange;
-    font-size: 50px;
+    font-size: 30px;
     margin: 20px;
+}
+.contactinfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    padding: 20px;
+}
+.colink {
+    color: #524904;
 }
