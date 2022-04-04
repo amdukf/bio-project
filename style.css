@@ -118,3 +118,19 @@ meter {
     border-radius: 12px;
     box-shadow: 15px 8px 7px 5px #6d6a6a;
 }
+.container {
+    text-align: center;
+    margin: 30px;
+}
+.final {
+    color: rgb(236, 74, 74);
+    font-family: 'Roboto', sans-serif;
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+}
+.icon {
+    color: orange;
+    font-size: 50px;
+    margin: 20px;
+}
